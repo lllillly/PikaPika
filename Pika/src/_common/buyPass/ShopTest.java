@@ -5,26 +5,21 @@ import java.util.Scanner;
 public class ShopTest {
 	public static void main(String[] args) {
 
-		// »ı¼ºÀÚ¸¦ ÅëÇØ s1ÀÌ¶ó´Â °´Ã¼¸¦ »ı¼ºÇÑ´Ù.
-		// ÀÌ¸§Àº Test¸¶Æ®
-		// ·Î±×ÀÎ ¸Ş¼Òµå¸¦ ÅëÇØ ·Î±×ÀÎ
-		// ÇöÀç »óÈ²À» Ãâ·ÂÇØÁÖ´Â current¸Ş¼Òµå
-		// buy ¸Ş¼Òµå¸¦ ÅëÇØ product ÀÔ·Â ¹× Ãâ·Â
+		// í˜„ì¬ ìƒí™©ì„ ì¶œë ¥í•´ì£¼ëŠ” currentë©”ì†Œë“œ
+		// buy ë©”ì†Œë“œë¥¼ í†µí•´ product ì…ë ¥ ë° ì¶œë ¥
 
-		System.out.println("ºñ¹Ğ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä	>>	");
-		// ºñ¹Ğ¹øÈ£ 7777 ÀÔ·Â ½Ã ·Î±×ÀÎ ¼º°ø
+		System.out.println("ë¹„ë°€ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”	>>	");
+		// ë¹„ë°€ë²ˆí˜¸ 7777 ì…ë ¥ ì‹œ ë¡œê·¸ì¸ ì„±ê³µ
 		Scanner sc = new Scanner(System.in);
-		
+
 		String pass = sc.nextLine();
-		
-		
-		Shop s1 = new Shop("Test¸¶Æ®");
+
+
+		Shop s1 = new Shop("Testë§ˆíŠ¸");
 
 		System.out.println(s1.login("admin", pass));
 		s1.current();
-		s1.buy("»ç°ú");
-		s1.buy("º¹¼ş¾Æ");
-
+		s1.buy("ì‚¬ê³¼");
+		s1.buy("ë³µìˆ­ì•„");
 	}
-
 }
