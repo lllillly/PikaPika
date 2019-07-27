@@ -16,9 +16,7 @@ public class ShopTest {
 
 
 		Shop s1 = new Shop("Test마트");
-		
-		//출력
-		
+
 		System.out.println(s1.login("admin", pass));
 		s1.current();
 		s1.buy("사과");
