@@ -1,8 +1,15 @@
+
+/**
+ * @author hyojin
+ * 아이디와 패스워드를 입력하고 일치하면 구매목록에 추가
+ *
+ */
+
 package _common.buyPass;
 
 public class Shop {
 
-	// 아이디와 패스워드를 입력하고 일치하면 구매목록에 추가
+	
 		/*
 		 * 아이디 : admin 비밀번호 : 7777 class : shop - 생성자를 통해 쇼핑몰 이름을 선언 Method : login -
 		 * 로그인, buy - 로그인 성공 시 String 값으로 물품을 입력 받아 물품이름 출력, current - 쇼핑몰 이름과 현재 로그인한
