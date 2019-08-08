@@ -4,10 +4,16 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.Scanner;
 
-public class DBconnection {
+public class DBconnection {	// 기능
+	
 
-	public DBconnection(String ename, String empno) {
+	public DBconnection() {
+		
+	}
+
+	public DBconnection(String empno, String ename) {
 		
 		String driver 	= "oracle.jdbc.driver.OracleDriver";
 		String id 		= "scott";
@@ -43,9 +49,17 @@ public class DBconnection {
 			e.printStackTrace();
 		}
 		
-	    
-			
+	
+		
 		
 	
 	}
+	
+	
+	public void test(String data) {
+		System.out.println(data);
+	}
+	
+	
+	
 }
